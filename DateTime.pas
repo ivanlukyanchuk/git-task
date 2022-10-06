@@ -30,9 +30,9 @@ begin
     else
       sum += 365;
   Println($'Сумма дней между {year1} и {year2} гг.: {sum}');
-//  var hours := ReadInteger('Введит кол-во часов');
-//  Assert(hours >= 0, 'Кол-во часов не может быть отрицательным');
-//  Println($'Кол-во секунд в {hours} часах: {hours*3600}');
+  var hours := ReadInteger('Введит кол-во часов');
+  Assert(hours >= 0, 'Кол-во часов не может быть отрицательным');
+  Println($'Кол-во секунд в {hours} часах: {hours*3600}');
 //  var year_bad := ReadInteger('Введите год:');
 //  if year_bad in |1992, 2005, 2011| then
 //    Println('В этом году был апокалипсис')
