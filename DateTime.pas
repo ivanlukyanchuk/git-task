@@ -16,10 +16,10 @@ begin
     Println($'Ближайшая дата к новому году: {d1}.{m1}')
   else 
     Println($'Ближайшая дата к новому году: {max(d1,d2)}.{m1}');
-//  if (year mod 4 = 0) and ((year mod 400 = 0) or not (year mod 100 = 0)) then 
-//    Println('В этом году 366 дней')
-//  else 
-//    Println('В этом году 365 дней');
+  If (year mod 4 = 0) and ((year mod 400 = 0) or not (year mod 100 = 0)) then 
+    Println('В этом году 366 дней')
+  else 
+    Println('В этом году 365 дней');
 //  var (year1, year2) := ReadInteger2('Введите 2 года:');
 //  if year1 > year2 then
 //    (year2, year1) := (year1, year2);
