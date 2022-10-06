@@ -8,6 +8,7 @@ begin
   var year := ReadInteger('Введите год:');
   Assert(year > 0, 'Введите положительное число');
   Println($'Год високосный: {(year mod 4 = 0) and ((year mod 400 = 0) or not (year mod 100 = 0))}');
+  Print(60*ReadInteger('Введите минуты:'));
 //  var (d1, m1, d2, m2) := ReadInteger4('Введите дату(сначала день и месяц первого, потом второго):');
 //  Assert((m1 <= 12) and (m2 <= 12), 'В году всего лишь 12 месяцев');
 //  if m2 > m1 then 
